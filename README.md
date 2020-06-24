@@ -112,6 +112,8 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `main.m` and just run it to generate the evaluation results in.
 
+pre-computed map can be found in [download link]().
+
 
 ## 4. Citation
 
