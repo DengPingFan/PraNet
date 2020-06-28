@@ -84,15 +84,15 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 1. Downloading necessary data:
 
     + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link]().
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/17FQbbvnKhNYbw8qsL7msx1tSP0cMV0no/view?usp=sharing).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link]().
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing).
     
     + downloading pretrained weights and move it into `snapshots/PraNet_Res2Net/PraNet-19.pth`, 
-    which can be found in this [download link]().
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1pUE99SUQHTLxS9rabLGe_XTDwfS6wXEw/view?usp=sharing).
     
-    + downloading Res2Net weights [download link]().
+    + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
 1. Training Configuration:
 
