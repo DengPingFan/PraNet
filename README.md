@@ -20,7 +20,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 ### 1.1. :fire: NEWS :fire:
 
-- [2020/05/25] :boom: Upload pre-trained weights.
+- [2020/05/28] :boom: Upload pre-trained weights. (Updated by Ge-Peng Ji)
 
 - [2020/06/24] :boom: Release training/testing code. (Updated by Ge-Peng Ji)
 
@@ -34,6 +34,9 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
     + [1.1. :fire: NEWS :fire:](#11--fire--news--fire-)
     + [1.2. Table of Contents](#12-table-of-contents)
   * [2. Overview](#2-overview)
+    + [2.1. Introduction](#21-introduction)
+    + [2.2. Framework Overview](#22-framework-overview)
+    + [2.3. Qualitative Results](#23-qualitative-results)
   * [3. Proposed Baseline](#3-proposed-baseline)
     + [3.1. Training/Testing](#31-training-testing)
     + [3.2 Evaluating your trained model:](#32-evaluating-your-trained-model-)
@@ -41,8 +44,13 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
   * [5. TODO LIST](#5-todo-list)
   * [6. FAQ](#6-faq)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+  
 
 ## 2. Overview
+
+### 2.1. Introduction
 
 Colonoscopy is an effective technique for detecting colorectal polyps, which are highly related to colorectal cancer. 
 In clinical practice, segmenting polyps from colonoscopy images is of great importance since it provides valuable 
@@ -61,6 +69,24 @@ Quantitative and qualitative evaluations on five challenging datasets across six
 metrics show that our PraNet improves the segmentation accuracy significantly, and presents a number of advantages in terms of generalizability,
 and real-time segmentation efficiency (∼50fps).
 
+### 2.2. Framework Overview
+
+<p align="center">
+    <img src="imgs/framework-final-min.png"/> <br />
+    <em> 
+    Figure 1: Overview of the proposed PraNet, which consists of three reverse attention 
+    modules with a parallel partial decoder connection. See § 2 in the paper for details.
+    </em>
+</p>
+
+### 2.3. Qualitative Results
+
+<p align="center">
+    <img src="imgs/qualitative_results.png"/> <br />
+    <em> 
+    Figure 2: Qualitative Results.
+    </em>
+</p>
 
 ## 3. Proposed Baseline
 
@@ -110,18 +136,21 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ### 3.2 Evaluating your trained model:
 
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
-please follow this the instructions in `main.m` and just run it to generate the evaluation results in.
+please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
-pre-computed map can be found in [download link]().
+> pre-computed map can be found in [download link]().
 
 
 ## 4. Citation
 
 Please cite our paper if you find the work useful: 
 
-	@article{
-	To be continued ...
-	}
+    @article{fan2020pra,
+    title={PraNet: Parallel Reverse Attention Network for Polyp Segmentation},
+    author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
+    journal={MICCAI},
+    year={2020}
+    }
 
 ## 5. TODO LIST
 
