@@ -163,10 +163,10 @@ class Res2Net(nn.Module):
 
 
 def res2net50_v1b(pretrained=False, **kwargs):
-    """Constructs a Res2Net-50_v1b src.
+    """Constructs a Res2Net-50_v1b lib.
     Res2Net-50 refers to the Res2Net-50_v1b_26w_4s.
     Args:
-        pretrained (bool): If True, returns a src pre-trained on ImageNet
+        pretrained (bool): If True, returns a lib pre-trained on ImageNet
     """
     model = Res2Net(Bottle2neck, [3, 4, 6, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:
@@ -175,9 +175,9 @@ def res2net50_v1b(pretrained=False, **kwargs):
 
 
 def res2net101_v1b(pretrained=False, **kwargs):
-    """Constructs a Res2Net-50_v1b_26w_4s src.
+    """Constructs a Res2Net-50_v1b_26w_4s lib.
     Args:
-        pretrained (bool): If True, returns a src pre-trained on ImageNet
+        pretrained (bool): If True, returns a lib pre-trained on ImageNet
     """
     model = Res2Net(Bottle2neck, [3, 4, 23, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:
@@ -186,22 +186,22 @@ def res2net101_v1b(pretrained=False, **kwargs):
 
 
 def res2net50_v1b_26w_4s(pretrained=False, **kwargs):
-    """Constructs a Res2Net-50_v1b_26w_4s src.
+    """Constructs a Res2Net-50_v1b_26w_4s lib.
     Args:
-        pretrained (bool): If True, returns a src pre-trained on ImageNet
+        pretrained (bool): If True, returns a lib pre-trained on ImageNet
     """
     model = Res2Net(Bottle2neck, [3, 4, 6, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:
         model_state = torch.load('/media/nercms/NERCMS/GepengJi/Medical_Seqmentation/CRANet/models/res2net50_v1b_26w_4s-3cf99910.pth')
         model.load_state_dict(model_state)
-        # src.load_state_dict(model_zoo.load_url(model_urls['res2net50_v1b_26w_4s']))
+        # lib.load_state_dict(model_zoo.load_url(model_urls['res2net50_v1b_26w_4s']))
     return model
 
 
 def res2net101_v1b_26w_4s(pretrained=False, **kwargs):
-    """Constructs a Res2Net-50_v1b_26w_4s src.
+    """Constructs a Res2Net-50_v1b_26w_4s lib.
     Args:
-        pretrained (bool): If True, returns a src pre-trained on ImageNet
+        pretrained (bool): If True, returns a lib pre-trained on ImageNet
     """
     model = Res2Net(Bottle2neck, [3, 4, 23, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:
@@ -210,9 +210,9 @@ def res2net101_v1b_26w_4s(pretrained=False, **kwargs):
 
 
 def res2net152_v1b_26w_4s(pretrained=False, **kwargs):
-    """Constructs a Res2Net-50_v1b_26w_4s src.
+    """Constructs a Res2Net-50_v1b_26w_4s lib.
     Args:
-        pretrained (bool): If True, returns a src pre-trained on ImageNet
+        pretrained (bool): If True, returns a lib pre-trained on ImageNet
     """
     model = Res2Net(Bottle2neck, [3, 8, 36, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:

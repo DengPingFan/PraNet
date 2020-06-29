@@ -3,7 +3,7 @@ from torch.autograd import Variable
 import os
 import argparse
 from datetime import datetime
-from src.PraNet_Res2Net import PraNet
+from lib.PraNet_Res2Net import PraNet
 from utils.dataloader import get_loader
 from utils.utils import clip_gradient, adjust_lr, AvgMeter
 import torch.nn.functional as F
@@ -98,7 +98,7 @@ if __name__ == '__main__':
     # ---- flops and params ----
     # from utils.utils import CalParams
     # x = torch.randn(1, 3, 352, 352).cuda()
-    # CalParams(src, x)
+    # CalParams(lib, x)
 
     params = model.parameters()
     optimizer = torch.optim.Adam(params, opt.lr)

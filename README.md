@@ -15,7 +15,7 @@
 ([arXiv Pre-print]())
 
 - If you have any questions about our paper, feel free to contact me. And if you are using PraNet 
-or evaluation toolbox for your research, please cite this paper ([BibTeX](#8-citation)).
+or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
 
 
 ### 1.1. :fire: NEWS :fire:
