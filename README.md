@@ -36,12 +36,16 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
   * [2. Overview](#2-overview)
     + [2.1. Introduction](#21-introduction)
     + [2.2. Framework Overview](#22-framework-overview)
+    + [2.3. Qualitative Results](#23-qualitative-results)
   * [3. Proposed Baseline](#3-proposed-baseline)
     + [3.1. Training/Testing](#31-training-testing)
     + [3.2 Evaluating your trained model:](#32-evaluating-your-trained-model-)
   * [4. Citation](#4-citation)
   * [5. TODO LIST](#5-todo-list)
   * [6. FAQ](#6-faq)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
   
 
 ## 2. Overview
@@ -80,7 +84,7 @@ and real-time segmentation efficiency (∼50fps).
 <p align="center">
     <img src="imgs/qualitative_results.png"/> <br />
     <em> 
-    Figure 3: Quantitative Results-(2).
+    Figure 3: Qualitative Results.
     </em>
 </p>
 
