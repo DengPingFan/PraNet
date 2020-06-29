@@ -84,7 +84,7 @@ and real-time segmentation efficiency (∼50fps).
 <p align="center">
     <img src="imgs/qualitative_results.png"/> <br />
     <em> 
-    Figure 3: Qualitative Results.
+    Figure 2: Qualitative Results.
     </em>
 </p>
 
