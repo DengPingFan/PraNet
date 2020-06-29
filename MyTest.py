@@ -3,7 +3,7 @@ import torch.nn.functional as F
 import numpy as np
 import os, argparse
 from scipy import misc
-from src.PraNet_Res2Net import PraNet
+from lib.PraNet_Res2Net import PraNet
 from utils.dataloader import test_dataset
 
 parser = argparse.ArgumentParser()
