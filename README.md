@@ -75,23 +75,7 @@ and real-time segmentation efficiency (∼50fps).
     </em>
 </p>
 
-### 2.3. Quantitative Results
-
-<p align="center">
-    <img src="imgs/quantiative_results_1.png"/> <br />
-    <em> 
-    Figure 2: Quantitative Results-(1).
-    </em>
-</p>
-
-<p align="center">
-    <img src="imgs/quantiative_results_2.png"/> <br />
-    <em> 
-    Figure 3: Quantitative Results-(2).
-    </em>
-</p>
-
-### 2.4. Qualitative Results
+### 2.3. Qualitative Results
 
 <p align="center">
     <img src="imgs/qualitative_results.png"/> <br />
