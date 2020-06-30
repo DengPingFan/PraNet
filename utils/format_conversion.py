@@ -1,6 +1,6 @@
 import os
 import shutil
-from libtiff import TIFF
+from libtiff import TIFF    # pip install libtiff
 from scipy import misc
 import random
 
@@ -31,8 +31,8 @@ def data_split(src_list):
 
 
 if __name__ == '__main__':
-    src_dir = '/media/nercms/NERCMS/GepengJi/Medical_Seqmentation/Dataset/train_dataset/CVC-EndoSceneStill/CVC-612/test_split/masks_tif'
-    dst_dir = '/media/nercms/NERCMS/GepengJi/Medical_Seqmentation/Dataset/train_dataset/CVC-EndoSceneStill/CVC-612/test_split/masks'
+    src_dir = '../Dataset/train_dataset/CVC-EndoSceneStill/CVC-612/test_split/masks_tif'
+    dst_dir = '../Dataset/train_dataset/CVC-EndoSceneStill/CVC-612/test_split/masks'
 
     os.makedirs(dst_dir, exist_ok=True)
     for img_name in os.listdir(src_dir):

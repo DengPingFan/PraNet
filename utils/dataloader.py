@@ -5,6 +5,9 @@ import torchvision.transforms as transforms
 
 
 class PolypDataset(data.Dataset):
+    """
+    dataloader for polyp segmentation tasks
+    """
     def __init__(self, image_root, gt_root, trainsize):
         self.trainsize = trainsize
         self.images = [image_root + f for f in os.listdir(image_root) if f.endswith('.jpg') or f.endswith('.png')]
