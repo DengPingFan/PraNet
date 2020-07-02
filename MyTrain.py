@@ -86,7 +86,7 @@ if __name__ == '__main__':
     parser.add_argument('--decay_epoch', type=int,
                         default=50, help='every n epochs decay learning rate')
     parser.add_argument('--train_path', type=str,
-                        default='。/data/TrainDataset', help='path to train dataset')
+                        default='./data/TrainDataset', help='path to train dataset')
     parser.add_argument('--train_save', type=str,
                         default='PraNet_Res2Net')
     opt = parser.parse_args()
