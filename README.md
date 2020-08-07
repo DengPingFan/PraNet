@@ -1,4 +1,4 @@
-# PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI2020 (Oral)
+# PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (Oral)
 
 > **Authors:** 
 > [Deng-Ping Fan](https://dpfan.net/), 
