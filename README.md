@@ -38,8 +38,9 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
     + [2.2. Framework Overview](#22-framework-overview)
     + [2.3. Qualitative Results](#23-qualitative-results)
   * [3. Proposed Baseline](#3-proposed-baseline)
-    + [3.1. Training/Testing](#31-training-testing)
+    + [3.1 Training/Testing](#31-training-testing)
     + [3.2 Evaluating your trained model:](#32-evaluating-your-trained-model-)
+    + [3.3 Pre-computed maps:](#33-pre-computed-maps)
   * [4. Citation](#4-citation)
   * [5. TODO LIST](#5-todo-list)
   * [6. FAQ](#6-faq)
@@ -138,7 +139,8 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 One-key evaluation is written in MATLAB code (link xxx), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
-> pre-computed map can be found in [download link]().
+### 3.3 Pre-computed maps: 
+They can be found in [download link]().
 
 
 ## 4. Citation
