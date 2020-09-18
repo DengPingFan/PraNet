@@ -19,6 +19,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 
 ### 1.1. :fire: NEWS :fire:
+- [2020/09/18] :boom: Upload the pre-computed maps.
 
 - [2020/05/28] :boom: Upload pre-trained weights. (Updated by Ge-Peng Ji)
 
