@@ -137,7 +137,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 ### 3.2 Evaluating your trained model:
 
-One-key evaluation is written in MATLAB code (link xxx), 
+One-key evaluation is written in MATLAB code ([link]()), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
 ### 3.3 Pre-computed maps: 
