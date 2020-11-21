@@ -102,7 +102,7 @@ for d = 1:datasetNum
                 [threshold_Pr(t), threshold_Rec(t), threshold_Spe(t), threshold_Dic(t), threshold_F(t), threshold_Iou(t)] = Fmeasure_calu(resmap,double(gt),size(gt),threshold);
                 
                 Bi_resmap = zeros(size(resmap));
-                Bi_resmap(resmap>threshold)=1;
+                Bi_resmap(resmap>=threshold)=1;
                 threshold_E(t) = Enhancedmeasure(Bi_resmap, gt);
             end
             
