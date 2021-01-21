@@ -19,11 +19,13 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 
 ### 1.1. :fire: NEWS :fire:
-- [2020/09/18] :boom: Upload the pre-computed maps.
+- [2021/01/21] :boom: Luckly, our PraNet has been used as the base segmentation model of Michael I. Jordan etal's recent work (Distribution-Free, Risk-Controlling Prediction Sets, [arXiv 2020](https://arxiv.org/pdf/2101.02703.pdf)).
 
-- [2020/05/28] :boom: Upload pre-trained weights. (Updated by Ge-Peng Ji)
+- [2020/09/18] Upload the pre-computed maps.
 
-- [2020/06/24] :boom: Release training/testing code. (Updated by Ge-Peng Ji)
+- [2020/05/28] Upload pre-trained weights. (Updated by Ge-Peng Ji)
+
+- [2020/06/24] Release training/testing code. (Updated by Ge-Peng Ji)
 
 - [2020/03/24] Create repository.
 
