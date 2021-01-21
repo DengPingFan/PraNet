@@ -19,7 +19,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 
 ### 1.1. :fire: NEWS :fire:
-- [2021/01/21] :boom: Luckly, our PraNet has been used as the base segmentation model of Michael I. Jordan etal's recent work (Distribution-Free, Risk-Controlling Prediction Sets, [arXiv 2020](https://arxiv.org/pdf/2101.02703.pdf)).
+- [2021/01/21] :boom: Luckly, our PraNet has been used as the base segmentation model of [Prof. Michael I. Jordan] (https://scholar.google.com/citations?user=yxUduqMAAAAJ&hl=zh-CN) etal's recent work (Distribution-Free, Risk-Controlling Prediction Sets, [arXiv 2020](https://arxiv.org/pdf/2101.02703.pdf)).
 
 - [2020/09/18] Upload the pre-computed maps.
 
