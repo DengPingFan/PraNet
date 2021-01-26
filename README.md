@@ -21,6 +21,8 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 ### 1.1. :fire: NEWS :fire:
 - [2021/01/21] :boom: Our PraNet has been used as the base segmentation model of [Prof. Michael I. Jordan](https://scholar.google.com/citations?user=yxUduqMAAAAJ&hl=zh-CN) et al's recent work (Distribution-Free, Risk-Controlling Prediction Sets, [arXiv 2021](https://arxiv.org/pdf/2101.02703.pdf)).
 
+- [2021/01/10] :boom: Our PraNet achieved the Top-1 ranking on the camouflaged object detection task ([link](http://dpfan.net/camouflage)). 
+
 - [2020/09/18] Upload the pre-computed maps.
 
 - [2020/05/28] Upload pre-trained weights. (Updated by Ge-Peng Ji)
