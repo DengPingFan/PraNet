@@ -54,6 +54,15 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### 1.3. State-of-the-art Approaches  
+1. "Selective feature aggregation network with area-boundary constraints for polyp segmentation." IEEE Transactions on Medical Imaging, 2019.
+doi: https://link.springer.com/chapter/10.1007/978-3-030-32239-7_34 
+2. "PraNet: Parallel Reverse Attention Network for Polyp Segmentation" IEEE Transactions on Medical Imaging, 2020.
+doi: https://link.springer.com/chapter/10.1007%2F978-3-030-59725-2_26
+3. "Hardnet-mseg: A simple encoder-decoder polyp segmentation neural network that achieves over 0.9 mean dice and 86 fps" arXiv, 2021
+doi: https://arxiv.org/pdf/2101.07172.pdf
+4. "TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation" arXiv, 2021.
+doi: https://arxiv.org/pdf/2102.08005.pdf
+5. continue updating...
 
 
 ## 2. Overview
