@@ -38,6 +38,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
   * [1. Preface](#1-preface)
     + [1.1. :fire: NEWS :fire:](#11--fire--news--fire-)
     + [1.2. Table of Contents](#12-table-of-contents)
+    + [1.3. State-of-the-art approaches](#13-SOTAs)
   * [2. Overview](#2-overview)
     + [2.1. Introduction](#21-introduction)
     + [2.2. Framework Overview](#22-framework-overview)
@@ -52,7 +53,8 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-  
+### 1.3. State-of-the-art Approaches  
+
 
 ## 2. Overview
 
