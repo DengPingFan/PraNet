@@ -120,7 +120,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     Note that PraNet is only tested on Ubuntu OS with the following environments. 
     It may work on other operating systems as well but we do not guarantee that it will.
     
-    + Creating a virtual environment in terminal: `conda create -n SINet python=3.6`.
+    + Creating a virtual environment in terminal: `conda create -n PraNet python=3.6`.
     
     + Installing necessary packages: PyTorch 1.1
 
