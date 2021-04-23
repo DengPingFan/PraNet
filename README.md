@@ -19,15 +19,18 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 
 ### 1.1. :fire: NEWS :fire:
+
+- [2021/04/23] We update the four results on [Camouflaged Object Detection (COD)](https://github.com/DengPingFan/SINet) testing dataset (i.e., COD10K, NC4K, CAMO, CHAMELEON) of our PraNet, which are the retained on COD dataset from scratch. Download link at google drive: [result](https://drive.google.com/file/d/1epdeolFS_JC8D8Pm_r0TaUJM-Qo4v49c/view?usp=sharing), [model weight](https://drive.google.com/file/d/1epdeolFS_JC8D8Pm_r0TaUJM-Qo4v49c/view?usp=sharing), [evaluation results](https://drive.google.com/file/d/1hY_S0-o5rezsBZCUegpDtAAmhy8jpW5N/view?usp=sharing).
+
 - [2021/01/21] :boom: Our PraNet has been used as the base segmentation model of [Prof. Michael I. Jordan](https://scholar.google.com/citations?user=yxUduqMAAAAJ&hl=zh-CN) et al's recent work (Distribution-Free, Risk-Controlling Prediction Sets, [arXiv 2021](https://arxiv.org/pdf/2101.02703.pdf)).
 
 - [2021/01/10] :boom: Our PraNet achieved the Top-1 ranking on the camouflaged object detection task ([link](http://dpfan.net/camouflage)). 
 
 - [2020/09/18] Upload the pre-computed maps.
 
-- [2020/05/28] Upload pre-trained weights. (Updated by Ge-Peng Ji)
+- [2020/05/28] Upload pre-trained weights.
 
-- [2020/06/24] Release training/testing code. (Updated by Ge-Peng Ji)
+- [2020/06/24] Release training/testing code.
 
 - [2020/03/24] Create repository.
 
