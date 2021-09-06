@@ -24,7 +24,7 @@ A simple way to debug and run the script is running a new command in the contain
 
 ## Performance Comparison
 
-The performance has slight difference due to the different operator implemented between two frameworks.  The download link ([Pytorch](https://drive.google.com/file/d/1tW0OOxPSuhfSbMijaMPwRDPElW1qQywz/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/1qpzNTWLAhepCT0OGNdjUIk-SVMCGUEdf/view?usp=sharing)) of prediction results on four testing dataset, including CHAMELEON, CAMO, COD10K, NC4K.
+The performance has slight difference due to the different operator implemented between two frameworks.  The download link ([Pytorch](https://drive.google.com/file/d/1tW0OOxPSuhfSbMijaMPwRDPElW1qQywz/view?usp=sharing) / [Jittor](https://drive.google.com/file/d/1qpzNTWLAhepCT0OGNdjUIk-SVMCGUEdf/view?usp=sharing)) of prediction results on four testing dataset, including Kvasir, CVC-612, CVC-ColonDB, ETIS, and CVC-T.
 
 | Kvasir dataset      | mean Dice | mean IoU | $F_\beta^w$ | $S_\alpha$ | $E_\phi^max$ | M     |
 |---------------------|-----------|----------|-------------|------------|--------------|-------|
