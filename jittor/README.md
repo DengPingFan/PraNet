@@ -68,8 +68,8 @@ If you find our work useful in your research, please consider citing:
     
     
     @article{fan2020pra,
-    title={PraNet: Parallel Reverse Attention Network for Polyp Segmentation},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
-    journal={MICCAI},
-    year={2020}
+        title={PraNet: Parallel Reverse Attention Network for Polyp Segmentation},
+        author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
+        journal={MICCAI},
+        year={2020}
     }
