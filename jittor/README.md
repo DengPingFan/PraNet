@@ -76,4 +76,4 @@ If you find our work useful in your research, please consider citing:
 
 # Acknowledgements
 
-xxx
+Thanks to Liang Dun from Tsinghua University ([The Graphics and Geometric Computing Group](https://cg.cs.tsinghua.edu.cn/#people.htm)) for his help in the framework conversion process.
