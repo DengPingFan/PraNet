@@ -74,6 +74,19 @@ If you find our work useful in your research, please consider citing:
         year={2020}
     }
 
+and the jittor framework:
+
+    @article{hu2020jittor,
+      title={Jittor: a novel deep learning framework with meta-operators and unified graph execution},
+      author={Hu, Shi-Min and Liang, Dun and Yang, Guo-Ye and Yang, Guo-Wei and Zhou, Wen-Yang},
+      journal={Science China Information Sciences},
+      volume={63},
+      number={222103},
+      pages={1--21},
+      year={2020}
+    }
+
+
 # Acknowledgements
 
 Thanks to Liang Dun from Tsinghua University ([The Graphics and Geometric Computing Group](https://cg.cs.tsinghua.edu.cn/#people.htm)) for his help in the framework conversion process.
