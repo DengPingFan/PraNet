@@ -62,6 +62,43 @@ class RFB(nn.Module):
         return x
 
 
+class PAM_Module(nn.Module):
+    """ Position attention module """
+
+    # Ref from SAGAN
+    def __init__(self, in_dim):
+        super(PAM_Module, self).__init__()
+        self.chanel_in = in_dim
+
+        self.query_conv = nn.Conv2d(in_channels=in_dim, out_channels=in_dim // 4, kernel_size=1)
+        self.key_conv = nn.Conv2d(in_channels=in_dim, out_channels=in_dim // 4, kernel_size=1)
+        self.value_conv = nn.Conv2d(in_channels=in_dim, out_channels=in_dim, kernel_size=1)
+        self.gamma = nn.Parameter(torch.zeros(1))
+
+        self.softmax = nn.Softmax(dim=-1)
+
+    def forward(self, x):
+        """
+            inputs :
+                x : input feature maps( B X C X H X W)
+            returns :
+                out : attention value + input feature
+                attention: B X (HxW) X (HxW)
+        """
+        m_batchsize, C, height, width = x.size()
+        proj_query = self.query_conv(x).view(m_batchsize, -1, width * height).permute(0, 2, 1)
+        proj_key = self.key_conv(x).view(m_batchsize, -1, width * height)
+        energy = torch.bmm(proj_query, proj_key)
+        attention = self.softmax(energy)
+        proj_value = self.value_conv(x).view(m_batchsize, -1, width * height)
+
+        out = torch.bmm(proj_value, attention.permute(0, 2, 1))
+        out = out.view(m_batchsize, C, height, width)
+
+        out = self.gamma * out + x
+        return out
+
+
 class aggregation(nn.Module):
     # dense aggregation, it can be replaced by other aggregation previous, such as DSS, amulet, and so on.
     # used after MSF
@@ -111,6 +148,11 @@ class CRANet(nn.Module):
         self.rfb2_1 = RFB(512, channel)
         self.rfb3_1 = RFB(1024, channel)
         self.rfb4_1 = RFB(2048, channel)
+
+        # ---- PAM ----
+        self.pam2 = PAM_Module(512)
+        self.pam3 = PAM_Module(1024)
+        self.pam4 = PAM_Module(2048)
 
         # Partial Decoder
         self.agg1 = aggregation(channel)
@@ -163,7 +205,16 @@ class CRANet(nn.Module):
         lateral_map_5 = F.interpolate(ra5_feat, scale_factor=8, mode='bilinear')    # Sup-1 (bs, 1, 44, 44) -> (bs, 1, 352, 352)
 
         # ---- reverse attention branch_4 ----
+        pam4 = self.pam4(x4)
         crop_4 = F.interpolate(ra5_feat, scale_factor=0.25, mode='bilinear')
+        x = self.ra4_conv1(pam4)
+        x = F.relu(self.ra4_conv2(x))
+        x = F.relu(self.ra4_conv3(x))
+        x = F.relu(self.ra4_conv4(x))
+        ra4_feat = self.ra4_conv5(x)
+        x = ra4_feat + crop_4
+        lateral_map_4 = F.interpolate(x, scale_factor=32, mode='bilinear')
+        '''crop_4 = F.interpolate(ra5_feat, scale_factor=0.25, mode='bilinear')
         x = -1*(torch.sigmoid(crop_4)) + 1
         x = x.expand(-1, 2048, -1, -1).mul(x4)
         x = self.ra4_conv1(x)
@@ -172,11 +223,19 @@ class CRANet(nn.Module):
         x = F.relu(self.ra4_conv4(x))
         ra4_feat = self.ra4_conv5(x)
         x = ra4_feat + crop_4
-        lateral_map_4 = F.interpolate(x, scale_factor=32, mode='bilinear')      # Sup-2 (bs, 1, 11, 11) -> (bs, 1, 352, 352)
+        lateral_map_4 = F.interpolate(x, scale_factor=32, mode='bilinear') '''     # Sup-2 (bs, 1, 11, 11) -> (bs, 1, 352, 352)
 
         # ---- reverse attention branch_3 ----
         # x = F.interpolate(x, scale_factor=2, mode='bilinear')
+        pam3 = self.pam3(x3)
         crop_3 = F.interpolate(x, scale_factor=2, mode='bilinear')
+        x = self.ra3_conv1(pam3)
+        x = F.relu(self.ra3_conv2(x))
+        x = F.relu(self.ra3_conv3(x))
+        ra3_feat = self.ra3_conv4(x)
+        x = ra3_feat + crop_3
+        lateral_map_3 = F.interpolate(x, scale_factor=16, mode='bilinear')
+        '''crop_3 = F.interpolate(x, scale_factor=2, mode='bilinear')
         x = -1*(torch.sigmoid(crop_3)) + 1
         x = x.expand(-1, 1024, -1, -1).mul(x3)
         x = self.ra3_conv1(x)
@@ -184,13 +243,21 @@ class CRANet(nn.Module):
         x = F.relu(self.ra3_conv3(x))
         ra3_feat = self.ra3_conv4(x)
         x = ra3_feat + crop_3
-        lateral_map_3 = F.interpolate(x, scale_factor=16, mode='bilinear')
+        lateral_map_3 = F.interpolate(x, scale_factor=16, mode='bilinear')'''
         # lateral_map_3 = self.crop(self.ra3_conv4_up(x), x_size)  # NOTES: Sup-3 (bs, 1, 22, 22) -> (bs, 1, 352, 352)
 
         # ---- reverse attention branch_2 ----
         # x = self.ra3_2(x)
         # crop_2 = self.crop(x, x2.size())
+        pam2 = self.pam2(x2)
         crop_2 = F.interpolate(x, scale_factor=2, mode='bilinear')
+        x = self.ra2_conv1(pam2)
+        x = F.relu(self.ra2_conv2(x))
+        x = F.relu(self.ra2_conv3(x))
+        ra2_feat = self.ra2_conv4(x)
+        x = ra2_feat + crop_2
+        lateral_map_2 = F.interpolate(x, scale_factor=8, mode='bilinear')
+        '''crop_2 = F.interpolate(x, scale_factor=2, mode='bilinear')
         x = -1*(torch.sigmoid(crop_2)) + 1
         x = x.expand(-1, 512, -1, -1).mul(x2)
         x = self.ra2_conv1(x)
@@ -198,7 +265,7 @@ class CRANet(nn.Module):
         x = F.relu(self.ra2_conv3(x))
         ra2_feat = self.ra2_conv4(x)
         x = ra2_feat + crop_2
-        lateral_map_2 = F.interpolate(x, scale_factor=8, mode='bilinear')
+        lateral_map_2 = F.interpolate(x, scale_factor=8, mode='bilinear')'''
         # lateral_map_2 = self.crop(self.ra2_conv4_up(x), x_size)  # NOTES: Sup-4 (bs, 1, 44, 44) -> (bs, 1, 352, 352)
 
         return lateral_map_5, lateral_map_4, lateral_map_3, lateral_map_2
