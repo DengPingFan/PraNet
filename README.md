@@ -20,6 +20,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 ### 1.1. :fire: NEWS :fire:
 
+- Our new task about Video Polyp Segmentation (VPS) has been released. [ProjectLink](https://github.com/GewelsJI/VPS)/ [PDF]().
 - [2021/12/26] :boom: PraNet模型在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「最具影响力计图论文（应用）奖」
 
 - [2021/09/07] The Jittor convertion of PraNet ([inference code](https://github.com/DengPingFan/PraNet/tree/master/jittor)) is available right now. It has robust inference efficiency compared to PyTorch version, please enjoy it. Many thanks to Yu-Cheng Chou for the excellent conversion from pytorch framework.
