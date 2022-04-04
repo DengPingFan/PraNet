@@ -1,7 +1,7 @@
 # PraNet: Parallel Reverse Attention Network for Polyp Segmentation (MICCAI2020-Oral)
 
 > **Authors:** 
-> [Deng-Ping Fan](https://dpfan.net/), 
+> [Deng-Ping Fan](https://dengpingfan.github.io/), 
 > [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
 > [Tao Zhou](https://taozh2017.github.io/),
 > [Geng Chen](https://www.researchgate.net/profile/Geng_Chen13), 
