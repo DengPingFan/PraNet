@@ -20,7 +20,7 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 ### 1.1. :fire: NEWS :fire:
 
-- [2022/03/27] :boom: Our new task about Video Polyp Segmentation (VPS) has been released. [ProjectLink](https://github.com/GewelsJI/VPS)/ [PDF]().
+- [2022/03/27] :boom: We release a new large-scale dataset on **Video Polyp Segmentation (VPS)** task, please enjoy it. [ProjectLink](https://github.com/GewelsJI/VPS)/ [PDF](https://arxiv.org/abs/2203.14291).
 
 - [2021/12/26] :boom: PraNet模型在[Jittor Developer Conference 2021](https://cg.cs.tsinghua.edu.cn/jittor/news/2021-12-27-15-27-00-00-jdc1/)中荣获「最具影响力计图论文（应用）奖」
 
