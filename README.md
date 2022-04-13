@@ -75,7 +75,8 @@ doi: https://link.springer.com/chapter/10.1007%2F978-3-030-59725-2_26
 doi: https://arxiv.org/pdf/2101.07172.pdf
 4. "TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation" arXiv, 2021.
 doi: https://arxiv.org/pdf/2102.08005.pdf
-5. continue updating...
+
+The latest trends in image-/video-based polyp segmentation refer to [AWESOME_VPS.md](https://github.com/GewelsJI/VPS/blob/main/docs/AWESOME_VPS.md).
 
 
 ## 2. Overview
