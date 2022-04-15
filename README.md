@@ -12,7 +12,7 @@
 ## 1. Preface
 
 - This repository provides code for "_**PraNet: Parallel Reverse Attention Network for Polyp Segmentation**_" MICCAI-2020. 
-([paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59725-2_26) | [中文版](http://dpfan.net/wp-content/uploads/MICCAI20_PraNet_Chinese.pdf))
+([paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59725-2_26) | [中文版](https://dengpingfan.github.io/papers/[2020][MICCAI]PraNet_Chinese.pdf))
 
 - If you have any questions about our paper, feel free to contact me. And if you are using PraNet 
 or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-citation)).
