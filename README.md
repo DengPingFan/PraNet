@@ -9,6 +9,10 @@
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), and 
 > [Ling Shao](http://www.inceptioniai.org/).
 
+<p align="center">
+    <img src="imgs/PraNet-Award.png"/> <br />
+</p>
+
 ## 1. Preface
 
 - This repository provides code for "_**PraNet: Parallel Reverse Attention Network for Polyp Segmentation**_" MICCAI-2020. 
@@ -47,22 +51,23 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 ### 1.2. Table of Contents
 
-- [PraNet: Parallel Reverse Attention Network for Polyp Segmentation (MICCAI 2020)](#pranet--parallel-reverse-attention-network-for-polyp-segmentation--miccai-2020-)
-  * [1. Preface](#1-preface)
-    + [1.1. :fire: NEWS :fire:](#11--fire--news--fire-)
-    + [1.2. Table of Contents](#12-table-of-contents)
-    + [1.3. State-of-the-art approaches](#13-SOTAs)
-  * [2. Overview](#2-overview)
-    + [2.1. Introduction](#21-introduction)
-    + [2.2. Framework Overview](#22-framework-overview)
-    + [2.3. Qualitative Results](#23-qualitative-results)
-  * [3. Proposed Baseline](#3-proposed-baseline)
-    + [3.1 Training/Testing](#31-training-testing)
-    + [3.2 Evaluating your trained model:](#32-evaluating-your-trained-model-)
-    + [3.3 Pre-computed maps:](#33-pre-computed-maps)
-  * [4. Citation](#4-citation)
-  * [5. TODO LIST](#5-todo-list)
-  * [6. FAQ](#6-faq)
+- [PraNet: Parallel Reverse Attention Network for Polyp Segmentation (MICCAI2020-Oral)](#pranet-parallel-reverse-attention-network-for-polyp-segmentation-miccai2020-oral)
+  - [1. Preface](#1-preface)
+    - [1.1. :fire: NEWS :fire:](#11-fire-news-fire)
+    - [1.2. Table of Contents](#12-table-of-contents)
+    - [1.3. State-of-the-art Approaches](#13-state-of-the-art-approaches)
+  - [2. Overview](#2-overview)
+    - [2.1. Introduction](#21-introduction)
+    - [2.2. Framework Overview](#22-framework-overview)
+    - [2.3. Qualitative Results](#23-qualitative-results)
+  - [3. Proposed Baseline](#3-proposed-baseline)
+    - [3.1. Training/Testing](#31-trainingtesting)
+    - [3.2 Evaluating your trained model:](#32-evaluating-your-trained-model)
+    - [3.3 Pre-computed maps:](#33-pre-computed-maps)
+  - [4. Citation](#4-citation)
+  - [5. TODO LIST](#5-todo-list)
+  - [6. FAQ](#6-faq)
+  - [7. License](#7-license)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
