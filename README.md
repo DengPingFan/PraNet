@@ -192,12 +192,14 @@ They can be found in [download link](https://drive.google.com/file/d/1tW0OOxPSuh
 ## 4. Citation
 
 Please cite our paper if you find the work useful: 
-
-    @article{fan2020pra,
-    title={PraNet: Parallel Reverse Attention Network for Polyp Segmentation},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
-    journal={MICCAI},
-    year={2020}
+    
+    @inproceedings{fan2020pranet,
+      title={Pranet: Parallel reverse attention network for polyp segmentation},
+      author={Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling},
+      booktitle={International conference on medical image computing and computer-assisted intervention},
+      pages={263--273},
+      year={2020},
+      organization={Springer}
     }
 
 ## 5. TODO LIST
