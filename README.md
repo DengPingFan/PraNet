@@ -157,7 +157,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     which can be found in this [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/ESYGBNkhTrJPqW-hq7axGsgBqG50IBcTlrkRnljD9iJuuw?e=1rkTSq). It contains five sub-datsets: CVC-300 (60 test samples), CVC-ClinicDB (62 test samples), CVC-ColonDB (380 test samples), ETIS-LaribPolypDB (196 test samples), Kvasir (100 test samples).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
+    which can be found in this [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EWp9Ss59k6JNsp5qb9Nq120BVLPHouUrI9MhCs7ccK5vIA?e=wEmpfL). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
     
     + downloading pretrained weights and move it into `snapshots/PraNet_Res2Net/PraNet-19.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1pUE99SUQHTLxS9rabLGe_XTDwfS6wXEw/view?usp=sharing).
