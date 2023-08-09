@@ -154,16 +154,16 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 1. Downloading necessary data:
 
     + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/ESYGBNkhTrJPqW-hq7axGsgBqG50IBcTlrkRnljD9iJuuw?e=1rkTSq). It contains five sub-datsets: CVC-300 (60 test samples), CVC-ClinicDB (62 test samples), CVC-ColonDB (380 test samples), ETIS-LaribPolypDB (196 test samples), Kvasir (100 test samples).
+    which can be found in this [Google Drive Link (327.2MB)](https://drive.google.com/file/d/1Y2z7FD5p5y31vkZwQQomXFRB0HutHyao/view?usp=sharing). It contains five sub-datsets: CVC-300 (60 test samples), CVC-ClinicDB (62 test samples), CVC-ColonDB (380 test samples), ETIS-LaribPolypDB (196 test samples), Kvasir (100 test samples).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (OneDrive)](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EWp9Ss59k6JNsp5qb9Nq120BVLPHouUrI9MhCs7ccK5vIA?e=wEmpfL). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
+    which can be found in this [Google Drive Link (399.5MB)](https://drive.google.com/file/d/1YiGHLw4iTvKdvbT6MgwO9zcCv8zJ_Bnb/view?usp=sharing). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
     
     + downloading pretrained weights and move it into `snapshots/PraNet_Res2Net/PraNet-19.pth`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1pUE99SUQHTLxS9rabLGe_XTDwfS6wXEw/view?usp=sharing).
+    which can be found in this [Google Drive Link (124.6MB)](https://drive.google.com/file/d/1lJv8XVStsp3oNKZHaSr42tawdMOq6FLP/view?usp=sharing).
     
-    + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
-   
+    + downloading Res2Net weights [Google Drive (98.4MB)](https://drive.google.com/file/d/1FjXh_YG1hLGPPM6j-c8UxHcIWtzGGau5/view?usp=sharing).
+
 1. Training Configuration:
 
     + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
@@ -177,16 +177,18 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     
     + Just enjoy it!
 
+
 ### 3.2 Evaluating your trained model:
 
-Matlab: One-key evaluation is written in MATLAB code ([link](https://drive.google.com/file/d/1_h4_CjD5GKEf7B1MRuzye97H0MXf2GE9/view?usp=sharing)), 
+Matlab: One-key evaluation is written in MATLAB code ([Google Drive Link](https://drive.google.com/file/d/1eKUpny19kLaCpZl7jjan408238h5PGIO/view?usp=sharing)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in `./res/`.
-The complete evaluation toolbox (including data, map, eval code, and res): [new link](https://drive.google.com/file/d/1bnlz7nfJ9hhYsMLFSBr9smcI7k7p0pVy/view?usp=sharing). 
+The complete evaluation toolbox (including data, map, eval code, and res): [Google Drive Link (380.6MB)](https://drive.google.com/file/d/1FJxb9DZMzPWFffkbchU0s9Zcf5oe7qcT/view?usp=sharing). 
 
 Python: Please refer to the work of ACMMM2021 https://github.com/plemeri/UACANet
 
+
 ### 3.3 Pre-computed maps: 
-They can be found in [download link](https://drive.google.com/file/d/1tW0OOxPSuhfSbMijaMPwRDPElW1qQywz/view?usp=sharing).
+They can be found in [Google Drive Link (61.6MB)](https://drive.google.com/file/d/1CJ6CTUdenumgiKXieuKXFohefRJwyFPY/view?usp=sharing).
 
 
 ## 4. Citation
