@@ -9,9 +9,13 @@
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), and 
 > [Ling Shao](http://www.inceptioniai.org/).
 
-<p align="center">
-    <img src="imgs/PraNet-Award.png"/> <br />
-</p>
+- We receive the award of Jittor Developer Conference Distinguish Paper & Most Influential (Application) Paper
+    <p align="center">
+        <img src="imgs/PraNet-Award.png"/> <br />
+    </p>
+- We are in the MICCAI2024 Young Scientist Publication Impact Award Shortlist
+    ![image](https://github.com/user-attachments/assets/f2871d49-235c-4554-ae89-11740e41edb8)
+
 
 ## 1. Preface
 
