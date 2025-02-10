@@ -9,12 +9,15 @@
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), and 
 > [Ling Shao](http://www.inceptioniai.org/).
 
+
+- :boom: We’re excited to introduce “[IntelliScope Project](https://github.com/ai4colonoscopy/IntelliScope),” which offers a deep dive into the latest advancements in intelligent colonoscopy (📖 **ColonSurvey**). We’re also pushing for three key initiatives to embrace the multimodal era in colonoscopy: a pioneering large-scale instruction tuning dataset (🏥 **ColonINST**), a colonoscopy-specific multimodal language model (🤖 **ColonGPT**), and a **multimdoal benchmark** 💯 for comparing different approaches.
+- We are in the MICCAI2024 Young Scientist Publication Impact Award Shortlist
+    ![image](https://github.com/user-attachments/assets/f2871d49-235c-4554-ae89-11740e41edb8)
+  
 - We receive the award of Jittor Developer Conference Distinguish Paper & Most Influential (Application) Paper
     <p align="center">
         <img src="imgs/PraNet-Award.png"/> <br />
     </p>
-- We are in the MICCAI2024 Young Scientist Publication Impact Award Shortlist
-    ![image](https://github.com/user-attachments/assets/f2871d49-235c-4554-ae89-11740e41edb8)
 
 
 ## 1. Preface
