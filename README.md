@@ -31,6 +31,10 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 ### 1.1. :fire: NEWS :fire:
 
+- [2025/03/20] 🚀 **PraNet-V2 is here!** 🚀  
+  We have introduced **PraNet-V2**, an enhanced version of PRaNet with **Dual-Supervised Reverse Attention (DSRA)** for more effective **multi-class** segmentation.  
+  Check out the paper and code here: [PRaNet-V2](https://github.com/ai4colonoscopy/PraNet-V2/tree/main/binary_seg/jittor)
+
 - [2022/11/26] Our PraNet has been developed on [Huawei Ascend platform](https://e.huawei.com/hk/products/servers/ascend), where the project could be found at [Gitee](https://gitee.com/ascend/ModelZoo-PyTorch/tree/master/PyTorch/contrib/cv/semantic_segmentation/PraNet) and [CSDN introduction](https://blog.csdn.net/m0_62401440/article/details/125563697).
 
 - [2022/03/27] :boom: We release a new large-scale dataset on **Video Polyp Segmentation (VPS)** task, please enjoy it. [ProjectLink](https://github.com/GewelsJI/VPS)/ [PDF](https://arxiv.org/abs/2203.14291).
