@@ -10,7 +10,12 @@
 > [Ling Shao](http://www.inceptioniai.org/).
 
 
+- 💥 We’re excited to introduce **PraNet-V2**, bringing semantic segmentation capabilities! PraNet-V2 introduces the **Dual-Supervised Reverse Attention (DSRA)** module, enabling explicit background supervision, independent background modeling, and semantically enriched attention fusion. We have found that PraNet-V2 outperforms PraNet-V1 in **polyp segmentation** and **improves existing SOTA segmentation multi-class models through DSRA integration**. 🚀
+
+    📖 [Read the paper]() | 🔗 [Check out the code](https://github.com/ai4colonoscopy/PraNet-V2) | 🚀 [Explore the results](https://github.com/user-attachments/assets/c33a975a-e531-4974-b938-80bafa3b1c6b)
+
 - :boom: We’re excited to introduce “[IntelliScope Project](https://github.com/ai4colonoscopy/IntelliScope),” which offers a deep dive into the latest advancements in intelligent colonoscopy (📖 **ColonSurvey**). We’re also pushing for three key initiatives to embrace the multimodal era in colonoscopy: a pioneering large-scale instruction tuning dataset (🏥 **ColonINST**), a colonoscopy-specific multimodal language model (🤖 **ColonGPT**), and a **multimdoal benchmark** 💯 for comparing different approaches.
+
 - We are in the MICCAI2024 Young Scientist Publication Impact Award Shortlist
     ![image](https://github.com/user-attachments/assets/f2871d49-235c-4554-ae89-11740e41edb8)
   
@@ -30,6 +35,9 @@ or evaluation toolbox for your research, please cite this paper ([BibTeX](#4-cit
 
 
 ### 1.1. :fire: NEWS :fire:
+
+- [2025/03/20] 🚀 **PraNet-V2 is here!** 🚀  
+  We have introduced **PraNet-V2**, an enhanced version of PRaNet with **Dual-Supervised Reverse Attention (DSRA)** for more effective **multi-class** segmentation.  Check out the paper and code here: [PraNet-V2](https://github.com/ai4colonoscopy/PraNet-V2)
 
 - [2022/11/26] Our PraNet has been developed on [Huawei Ascend platform](https://e.huawei.com/hk/products/servers/ascend), where the project could be found at [Gitee](https://gitee.com/ascend/ModelZoo-PyTorch/tree/master/PyTorch/contrib/cv/semantic_segmentation/PraNet) and [CSDN introduction](https://blog.csdn.net/m0_62401440/article/details/125563697).
 
