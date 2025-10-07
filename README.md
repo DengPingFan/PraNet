@@ -10,7 +10,7 @@
 > [Ling Shao](http://www.inceptioniai.org/).
 
 
-- Honored to be selected as a MICCAI 2025 YSPIA Awardee ![image](https://github.com/user-attachments/assets/3966a8b1-85e9-4398-88a0-108816f78a91)
+- Honored to be selected as a [MICCAI 2025 YSPIA Awardee](https://miccai.org/index.php/about-miccai/awards/young-scientist-impact-award/) ![image](https://github.com/user-attachments/assets/3966a8b1-85e9-4398-88a0-108816f78a91)
 
 
 - 💥 We’re excited to introduce **PraNet-V2**, bringing semantic segmentation capabilities! PraNet-V2 introduces the **Dual-Supervised Reverse Attention (DSRA)** module, enabling explicit background supervision, independent background modeling, and semantically enriched attention fusion. We have found that PraNet-V2 outperforms PraNet-V1 in **polyp segmentation** and **improves existing SOTA segmentation multi-class models through DSRA integration**. 📖 [Read the paper](https://arxiv.org/abs/2504.10986) | 🔗 [Check out the code](https://github.com/ai4colonoscopy/PraNet-V2)
